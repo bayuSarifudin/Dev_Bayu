@@ -278,12 +278,12 @@ button {
 }
 
 /*==================== HOME ====================*/
-.home {
+/* .home {
 	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
+} */
 
 .home__container {
 	gap: 1rem;
@@ -1057,7 +1057,18 @@ button {
 		grid-template-columns: repeat(2, 1fr);
 	}
 
-	/* .home {
+	.home {
 		height: 100vh;
-	} */
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.about,
+	.skills,
+	.portfolio,
+	.project,
+	.contact {
+		height: 100vh;
+	}
 }

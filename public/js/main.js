@@ -186,3 +186,9 @@ sr.reveal('.contact__content, .form-btn', {
 sr.reveal('.footer', {
 	origin: 'bottom',
 });
+sr.reveal('.portfolio__img', {
+	origin: 'left',
+});
+sr.reveal('.portfolio__data', {
+	origin: 'right',
+});
