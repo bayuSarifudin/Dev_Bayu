@@ -116,6 +116,7 @@ body {
 	font-size: var(--normal-font-size);
 	background-color: var(--body-color);
 	color: var(--text-color);
+	overflow-x: hidden;
 }
 
 h1,
@@ -278,12 +279,6 @@ button {
 }
 
 /*==================== HOME ====================*/
-/* .home {
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-} */
 
 .home__container {
 	gap: 1rem;
@@ -299,6 +294,7 @@ button {
 	display: grid;
 	grid-template-columns: max-content;
 	row-gap: 1rem;
+	/* transform: translateX(0); */
 }
 
 .home__social-icon {
